@@ -1,0 +1,340 @@
+body {
+  background-image: url(../assets/body.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+header {
+  justify-content: center;
+  max-height: 50%;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.955)),
+    url(../assets/pc.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  padding-bottom: 39%;
+}
+h1,
+h2 {
+  text-align: center;
+  animation: animate-shadow 0.3s linear infinite;
+}
+.head-stack,
+.head-go {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.955)),
+    url(../assets/stack.jpeg);
+  align-self: center;
+  width: 100vw;
+}
+.head-stack strong,
+.head-go strong {
+  color: #f700ff;
+}
+
+header span {
+  animation: animate-shadow 0.2s linear infinite;
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+  margin-top: 8%;
+
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+header strong {
+  font-size: 6vh;
+  text-align: center;
+  color: #ff9900;
+  animation: animate-shadow 0.2s linear infinite;
+  margin-top: 10%;
+}
+div {
+  margin-top: 16%;
+  flex-wrap: wrap;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header button,
+.head-stack button,
+.head-go button {
+  padding: 2ch;
+  background-color: rgb(136, 206, 206);
+  font-family: "Courier New", Courier, monospace;
+  color: #f700ff;
+  border-color: rgb(0, 255, 191);
+  font-weight: bold;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 80%;
+  min-height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+}
+section {
+  font-size: large;
+  color: #f700ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.74);
+  align-self: center;
+  gap: 2%;
+  padding-top: 10%;
+  padding-bottom: 16%;
+  width: 100vw;
+}
+section :target {
+  opacity: 1;
+  animation: entrada 2s ease forwards;
+}
+
+section h3 {
+  color: rgb(11, 255, 84);
+}
+section strong {
+  color: rgb(255, 166, 0);
+}
+section p {
+  text-align: center;
+}
+article h3 {
+  overflow-x: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+li {
+  color: rgba(255, 255, 255, 0.897);
+}
+strong {
+  color: rgb(0, 255, 34);
+  font-size: 90%;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  margin-bottom: 0.5%;
+  color: rgba(255, 255, 255, 0.747);
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  color: aqua;
+}
+ul {
+  max-width: 70%;
+}
+main section ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+article {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 1%;
+  width: 100%;
+  height: 90%;
+}
+
+article ul {
+  gap: 0.9%;
+  margin: auto;
+}
+h3 {
+  text-align: center;
+}
+article a {
+  position: relative;
+  text-align: center;
+  width: 30%;
+}
+.tecnologias {
+  font-family: "Courier New", Courier, monospace;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.755)),
+    url(../assets/body.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.stack1 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.755)),
+    url(../assets/proj1.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.stack1 h3 {
+  color: #34ffe4;
+}
+.stack1 p {
+  color: rgb(255, 255, 255);
+}
+.stack1 strong {
+  color: rgb(255, 213, 97);
+}
+.go-session {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.955)),
+    url(../assets/proj1.jpeg);
+  background-size: co;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  background-attachment: fixed;
+}
+
+.stack2 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.755)),
+    url(../assets/proj2.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.stack2 h3 {
+  color: rgb(0, 102, 255);
+}
+.stack2 p {
+  color: rgb(255, 255, 255);
+}
+.stack2 strong {
+  color: #e5ff00;
+}
+.stack3 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.755)),
+    url(../assets/proj3.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.stack3 h3 {
+  color: rgb(9, 255, 0);
+}
+.stack3 p {
+  color: rgb(255, 255, 255);
+}
+.stack3 strong {
+  color: #ff7b00;
+}
+.enfoque {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.955)),
+    url(../assets/filosofi.jpeg);
+  background-attachment: fixed;
+}
+.educacion {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.955)),
+    url(../assets/formacion.jpeg);
+  background-attachment: fixed;
+  height: 100vh;
+}
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.955)),
+    url(../assets/contacto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 2%;
+  width: 100vw;
+  height: 100vh;
+}
+.cta-final {
+  height: 100vh;
+  width: 100vw;
+}
+footer h2 {
+  color: #f700ff;
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  border-radius: 5%;
+  margin: 1%;
+}
+@keyframes animate-shadow {
+  0% {
+    text-shadow: 0px 0px 10px rgb(255, 0, 234);
+    color: rgb(255, 0, 234);
+  }
+
+  50% {
+    text-shadow: 0px 0px 10px aqua;
+    color: aqua;
+  }
+  100% {
+    text-shadow: 0px 0px 10px rgb(255, 0, 234);
+    color: rgb(255, 0, 234);
+  }
+}
+@keyframes animate-shadow-button {
+  0% {
+    text-shadow: 0px 0px 10px rgb(255, 0, 234);
+    box-shadow: 0px 0px 10px aqua;
+    color: rgb(255, 0, 234);
+  }
+
+  50% {
+    text-shadow: 0px 0px 10px aqua;
+    background-color: #f700ff;
+    box-shadow: 0px 0px 10px rgb(255, 0, 234);
+    color: aqua;
+  }
+  100% {
+    text-shadow: 0px 0px 10px rgb(255, 0, 234);
+    box-shadow: 0px 0px 10px aqua;
+    color: rgb(255, 0, 234);
+  }
+}
+
+@keyframes entrada {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

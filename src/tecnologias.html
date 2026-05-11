@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Tecnologias</title>
+</head>
+
+<body>
+    <header class="head-stack">
+
+        <span><strong>Mi Stack Tecnologico</strong></span>
+        <div>
+            <button onclick="window.location.href='#stack1'">Go</button>
+            <button onclick="window.location.href='#stack2'">Python3</button>
+            <button onclick="window.location.href='#stack3'">Mas</button>
+        </div>
+    </header>
+    <section id="tecnologias" class="tecnologias" aria-labelledby="tech-titulo">
+
+
+        <!-- Categoría: Backend & APIs -->
+        <article onclick="window.location.href='go.html'" id="stack1" aria-labelledby="stack1" class="stack1">
+            <h3>API REST con Go + Fiber v3
+            </h3>
+            <p>
+                Microservicio para administración de recursos con autenticación JWT, validación de datos,
+                paginación y pruebas de estrés con consultas superiores a 10k registros.
+                <br><strong>Stack:</strong> Go, Fiber v3, MySQL, Git.
+            </p>
+            <p>Haz click para ver un resumen mis proyectos de Go</p>
+        </article>
+
+        <article onclick="window.location.href='py.html'" id="stack2" aria-labelledby="stack2" class="stack2">
+            <h3 id="proj2">Backend con Python + FastAPI</h3>
+            <p>
+                Sistema de inventario con relaciones complejas, migraciones controladas y documentación
+                OpenAPI generada automáticamente. Enfoque en normalización hasta tercera forma normal.
+                <br>
+                <strong>Stack:</strong> Python 3, FastAPI, PostgreSQL, Git.
+            </p>
+            <p>Haz click para ver un resumen mis proyectos de Go</p>
+        </article>
+
+        <!-- Categoría: Herramientas -->
+
+
+        <!-- Categoría: Lenguajes adicionales -->
+        <article aria-labelledby="stack3" id="stack3" class="stack3">
+            <h3 id="cat-learning">En aprendizaje activo (bases sólidas)</h3>
+            <ul>
+                <li><strong>C/C++</strong> — La base que todos deberian tener.</li>
+                <li><strong>Rust</strong> — seguridad de memoria sin garbage collector.</li>
+                <li><strong>Nim</strong> — Ciberseguridad y ofuscacion de codigo.</li>
+                <li><strong>Dlang</strong> — Un lenguaje de nicho muy completo y multiproposito.</li>
+                <li><strong>ASM (Ensamblador)</strong> — arquitectura de computadores, instrucción directa al
+                <li><strong>PostgreSQL</strong> — administración avanzada y modelado complejo.</li>
+
+            </ul>
+        </article>
+        <article aria-labelledby="cat-tools">
+            <h3 id="cat-tools">- Control de versiones y flujo de trabajo</h3>
+            <ul>
+                <li><strong>Git / GitHub</strong> — commits atómicos, ramas con sentido, colaboración real.</li>
+            </ul>
+        </article>
+        <!-- Categoría: En crecimiento -->
+
+        <a href="index.html#enfoque"># Mi filosofia</a>
+    </section>
+</body>
+
+</html>
