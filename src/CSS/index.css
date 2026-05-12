@@ -45,13 +45,12 @@ header span {
   justify-content: center;
   font-size: 100%;
   margin-top: 8%;
-
   font-family: "Press Start 2P", cursive;
   color: white;
 }
 
 header strong {
-  font-size: 6vh;
+  font-size: 5vw;
   text-align: center;
   color: #ff9900;
   animation: animate-shadow 0.2s linear infinite;
@@ -73,10 +72,11 @@ header button,
   color: #f700ff;
   border-color: rgb(0, 255, 191);
   font-weight: bold;
+  font-size: 11vw;
   margin: auto;
   margin-top: 2%;
-  min-width: 30%;
-  padding: 2ch;
+  min-width: 15vw;
+  padding: 1ch;
   font-size: large;
   position: relative;
 }
