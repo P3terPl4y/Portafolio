@@ -130,6 +130,7 @@ article h3 {
 }
 li {
   color: rgba(255, 255, 255, 0.897);
+  font-family: "Courier New", Courier, monospace;
 }
 strong {
   color: rgb(0, 255, 34);
@@ -142,7 +143,7 @@ p {
   max-width: 70%;
   margin-bottom: 0.5%;
   color: rgba(255, 255, 255, 0.747);
-  font-family: "Press Start 2P", cursive;
+  font-family: "Courier New", Courier, monospace;
 }
 a {
   color: aqua;
