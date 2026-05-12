@@ -1,3 +1,4 @@
+@import url("htps://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 body {
   background-image: url(../assets/body.jpeg);
   background-repeat: no-repeat;
@@ -6,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: "Press Start 2P", cursive;
 }
 header {
   justify-content: center;
@@ -44,7 +46,7 @@ header span {
   font-size: 100%;
   margin-top: 8%;
 
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Press Start 2P", cursive;
   color: white;
 }
 
@@ -57,23 +59,26 @@ header strong {
 }
 div {
   margin-top: 16%;
-  flex-wrap: wrap;
-
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 header button,
 .head-stack button,
 .head-go button {
-  padding: 2ch;
   background-color: rgb(136, 206, 206);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Press Start 2P", cursive;
   color: #f700ff;
   border-color: rgb(0, 255, 191);
   font-weight: bold;
   margin: auto;
+  margin-top: 2%;
+  min-width: 30%;
+  padding: 2ch;
+  font-size: large;
+  position: relative;
 }
 
 main {
@@ -86,7 +91,7 @@ main {
   background-attachment: fixed;
   width: 80%;
   min-height: 100vh;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Press Start 2P", cursive;
 }
 section {
   font-size: large;
@@ -137,7 +142,7 @@ p {
   max-width: 70%;
   margin-bottom: 0.5%;
   color: rgba(255, 255, 255, 0.747);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Press Start 2P", cursive;
 }
 a {
   color: aqua;
@@ -175,7 +180,7 @@ article a {
   width: 30%;
 }
 .tecnologias {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Press Start 2P", cursive;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.755)),
     url(../assets/body.jpeg);
@@ -287,7 +292,7 @@ footer {
 }
 footer h2 {
   color: #f700ff;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Press Start 2P", cursive;
 }
 img {
   border-radius: 5%;
@@ -296,7 +301,7 @@ img {
 @keyframes animate-shadow {
   0% {
     text-shadow: 0px 0px 10px rgb(255, 0, 234);
-    color: rgb(255, 0, 234);
+    color: rgba(255, 0, 234, 0.829);
   }
 
   50% {
@@ -305,7 +310,7 @@ img {
   }
   100% {
     text-shadow: 0px 0px 10px rgb(255, 0, 234);
-    color: rgb(255, 0, 234);
+    color: rgba(255, 0, 234, 0.829);
   }
 }
 @keyframes animate-shadow-button {
