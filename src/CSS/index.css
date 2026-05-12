@@ -26,6 +26,9 @@ h2 {
   text-align: center;
   animation: animate-shadow 0.3s linear infinite;
 }
+h3 {
+  text-align: center;
+}
 .head-stack,
 .head-go {
   background-image:
